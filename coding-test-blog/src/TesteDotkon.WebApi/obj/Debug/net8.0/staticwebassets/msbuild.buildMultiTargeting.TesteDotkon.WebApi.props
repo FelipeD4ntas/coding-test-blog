@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\TesteDotkon.WebApi.props" />
+</Project>

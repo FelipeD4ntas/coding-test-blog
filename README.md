@@ -1,53 +1,180 @@
-# Coding Test Dotkon | Projeto de Blog Simples
+# Projeto Blog Simples
 
-## Descrição
-
-Agradecemos por estar participando do nosso processo seletivo! Estamos muito felizes em ter você por aqui 😃.
-A primeira etapa do processo seletivo é um teste técnico, que está descrito abaixo. Boa sorte! \o/
-
-Este projeto consiste na implementação de um sistema básico de blog onde os usuários podem visualizar, criar, editar e excluir postagens. O objetivo é avaliar as habilidades técnicas em C# e o uso do Entity Framework para manipulação de dados.
-
-## Requisitos para a entrega
-    1. Faça um fork deste repositório;
-    2. Realize o teste;
-    3. Adicione seu currículo em PDF na raiz do repositório;
-    4. Envie-nos o PULL-REQUEST para que seja avaliado.
-    
-    OBS: seus dados não ficarão públicos em nosso repositório.
-  
-## Funcionalidades
-
-### Requisitos Funcionais
-
-1. **Autenticação**: 
-    - Usuários devem ser capazes de se registrar e fazer login.
-
-2. **Gerenciamento de Postagens**: 
-    - Usuários autenticados podem criar postagens, editar suas próprias postagens e excluir postagens existentes.
-
-3. **Visualização de Postagens**: 
-    - Qualquer visitante do site pode visualizar as postagens existentes.
-
-### Requisitos Técnicos
-
-- **.NET**: Utilize a versão 7, 8 ou 9
-- **Entity Framework**: Utilize o Entity Framework para interagir com o banco de dados e armazenar informações sobre usuários e postagens.
-
-### Requisitos Opcionais
-
-- **Arquitetura Monolítica**: Organize as responsabilidades do sistema, como autenticação, gerenciamento de postagens e notificações em tempo real.
-
-- **Princípios SOLID**: Aplique os princípios SOLID, com ênfase no Princípio da Responsabilidade Única (SRP) e no Princípio da Inversão de Dependência (DIP).
-
-- **WebSockets**: Implemente WebSockets para notificações em tempo real, como uma notificação simples na interface do usuário sempre que uma nova postagem for feita.
-
-- **Interface Web Simples**: Crie uma interface web simples para a interação com o sistema.
-
-## Observações Finais
-Certifique-se de que seu código está bem documentado e limpo.
-Inclua qualquer documentação adicional que possa ajudar a entender sua solução (README.md).
+Este projeto é uma aplicação de blog simples composta por um backend em .NET e um frontend em Vue.js. Ambos os serviços podem ser executados utilizando contêineres Docker para facilitar a configuração e execução.
 
 ---
 
-Este teste prático é uma oportunidade para demonstrar suas habilidades em desenvolvimento C#, arquitetura de software e boas práticas de programação. 
-Divirta-se no processo!
+## Pré-requisitos
+
+Antes de iniciar, certifique-se de ter as seguintes ferramentas instaladas em sua máquina:
+
+- [Docker](https://www.docker.com/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
+---
+
+## Estrutura do Projeto
+
+O projeto está organizado da seguinte forma:
+
+```
+/
+├── coding-test-blog/         # Diretório do backend (.NET)
+├── dotkon-teste-frontend/    # Diretório do frontend (Vue.js)
+├── docker-compose.yml        # Arquivo de orquestração Docker
+```
+
+---
+
+## Como Rodar o Projeto
+
+### Passo 1: Clonar o Repositório
+
+Faça o clone do repositório para a sua máquina local:
+
+```bash
+git clone <url-do-repositorio>
+cd <diretorio-do-projeto>
+```
+
+### Passo 2: Configurar as Variáveis de Ambiente
+
+Certifique-se de que as variáveis de ambiente necessárias estão configuradas. Você pode utilizar o arquivo `.env` para definir configurações adicionais, se necessário.
+
+### Passo 3: Construir e Rodar os Contêineres
+
+No diretório raiz do projeto, execute o comando abaixo para construir e iniciar os serviços:
+
+```bash
+docker-compose up --build
+```
+
+Este comando irá:
+
+1. Construir a imagem Docker para o backend.
+2. Construir a imagem Docker para o frontend.
+3. Iniciar os contêineres e expor as portas configuradas no `docker-compose.yml`.
+
+### Passo 4: Acessar a Aplicação
+
+- **Frontend**: Acesse o frontend pelo navegador em:
+
+  ```
+  http://localhost:8080
+  ```
+
+- **Backend**: Você pode testar o backend, incluindo os endpoints da API, em:
+
+  ```
+  http://localhost:7164
+  ```
+
+---
+
+## Estrutura dos Arquivos Docker
+
+### Backend (`coding-test-blog/Dockerfile`)
+
+O backend é um projeto .NET e está configurado com o seguinte `Dockerfile`:
+
+```dockerfile
+# Build da aplicação
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+WORKDIR /app
+COPY . .
+RUN dotnet restore
+RUN dotnet publish -c Release -o out
+
+# Runtime
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+WORKDIR /app
+COPY --from=build /app/out .
+EXPOSE 7164
+ENV ASPNETCORE_URLS=http://+:7164
+ENTRYPOINT ["dotnet", "TesteDotkon.WebApi.dll"]
+```
+
+### Frontend (`dotkon-teste-frontend/Dockerfile`)
+
+O frontend é uma aplicação Vue.js e está configurado com o seguinte `Dockerfile`:
+
+```dockerfile
+FROM node:18 AS build
+WORKDIR /app
+COPY . .
+RUN npm install
+RUN npm run build
+
+FROM nginx:alpine
+COPY --from=build /app/dist /usr/share/nginx/html
+EXPOSE 80
+```
+
+### Docker Compose (`docker-compose.yml`)
+
+O arquivo `docker-compose.yml` orquestra os dois serviços:
+
+```yaml
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./coding-test-blog
+      dockerfile: Dockerfile
+    ports:
+      - "7164:7164"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:7164
+
+  frontend:
+    build:
+      context: ./dotkon-teste-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend
+```
+
+---
+
+## Testando a Aplicação
+
+1. Acesse o frontend e realize o login ou cadastro.
+2. Adicione novos posts pelo frontend. As postagens aparecerão automaticamente devido à integração WebSocket configurada no backend.
+
+---
+
+## Parando os Contêineres
+
+Para parar os contêineres, utilize o comando:
+
+```bash
+docker-compose down
+```
+
+Este comando encerrará todos os serviços e removerá os contêineres associados.
+
+---
+
+## Resolução de Problemas
+
+### 1. **Erro de Conexão com o WebSocket**
+
+- Certifique-se de que o WebSocket está configurado corretamente no backend.
+- Verifique se a porta `7164` está exposta e não está sendo bloqueada por firewall.
+
+### 2. **Mudanças não Refletidas no Frontend/Backend**
+
+- Após realizar alterações no código, reconstrua os contêineres com:
+
+  ```bash
+  docker-compose up --build
+  ```
+
+### 3. **Porta em Uso**
+
+- Caso alguma porta esteja em uso, altere as portas no arquivo `docker-compose.yml` e reinicie os serviços.
+

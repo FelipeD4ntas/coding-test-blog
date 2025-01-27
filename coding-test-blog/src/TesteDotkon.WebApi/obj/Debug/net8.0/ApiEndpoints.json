@@ -1,0 +1,103 @@
+[
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.LoginController",
+    "Method": "Adicionar",
+    "RelativePath": "api/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TesteDotkon.Domain.Commands.Login.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.PostagemController",
+    "Method": "Adicionar",
+    "RelativePath": "api/postagem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TesteDotkon.Domain.Commands.Postagem.Adicionar.PostagemAdicionarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.PostagemController",
+    "Method": "Editar",
+    "RelativePath": "api/postagem/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "request",
+        "Type": "TesteDotkon.Domain.Commands.Postagem.Editar.PostagemEditarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.PostagemController",
+    "Method": "Deletar",
+    "RelativePath": "api/postagem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.PostagemController",
+    "Method": "Listar",
+    "RelativePath": "api/postagem/postagens",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TesteDotkon.Domain.Commands.Postagem.Listar.PostagemListarRequest",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TesteDotkon.WebApi.Controllers.UsuarioController",
+    "Method": "Adicionar",
+    "RelativePath": "api/usuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "TesteDotkon.Domain.Commands.Usuario.Adicionar.UsuarioAdicionarRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

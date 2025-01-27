@@ -1,0 +1,21 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./coding-test-blog
+      dockerfile: Dockerfile
+    ports:
+      - "7164:7164"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:7164
+
+  frontend:
+    build:
+      context: ./dotkon-teste-frontend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - backend

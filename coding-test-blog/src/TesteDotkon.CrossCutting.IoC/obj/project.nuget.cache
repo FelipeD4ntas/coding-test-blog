@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "995Y8mt/OCc=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.CrossCutting.IoC\\TesteDotkon.Infra.CrossCutting.IoC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.1\\microsoft.extensions.dependencyinjection.abstractions.9.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

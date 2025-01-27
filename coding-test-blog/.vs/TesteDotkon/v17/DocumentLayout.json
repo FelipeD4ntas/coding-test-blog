@@ -1,0 +1,217 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|solutionrelative:src\\testedotkon.webapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|solutionrelative:src\\testedotkon.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{61A86C79-3BCD-4F85-899A-647B57D50492}|src\\TesteDotkon.CrossCutting.WebSockets\\TesteDotkon.CrossCutting.WebSockets.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.crosscutting.websockets\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{61A86C79-3BCD-4F85-899A-647B57D50492}|src\\TesteDotkon.CrossCutting.WebSockets\\TesteDotkon.CrossCutting.WebSockets.csproj|solutionrelative:src\\testedotkon.crosscutting.websockets\\websocketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.domain\\commands\\postagem\\adicionar\\postagemadicionarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|solutionrelative:src\\testedotkon.domain\\commands\\postagem\\adicionar\\postagemadicionarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.domain\\commands\\postagem\\listar\\postagemlistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|solutionrelative:src\\testedotkon.domain\\commands\\postagem\\listar\\postagemlistarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.webapi\\controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{13F3E7B4-DCB8-4066-8375-036CCFA89C6C}|src\\TesteDotkon.WebApi\\TesteDotkon.WebApi.csproj|solutionrelative:src\\testedotkon.webapi\\controllers\\postagemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.domain\\commands\\postagem\\editar\\postagemeditarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|solutionrelative:src\\testedotkon.domain\\commands\\postagem\\editar\\postagemeditarhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.domain\\commands\\postagem\\listar\\postagemlistarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|solutionrelative:src\\testedotkon.domain\\commands\\postagem\\listar\\postagemlistarresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|c:\\users\\felip\\onedrive\\\u00E1rea de trabalho\\teste dotkon\\coding-test-blog\\src\\testedotkon.domain\\dtos\\postagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C30E77A1-D5ED-4597-BCDB-2CD2FCAE16B8}|src\\TesteDotkon.Domain\\TesteDotkon.Domain.csproj|solutionrelative:src\\testedotkon.domain\\dtos\\postagemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f6c90d9a-1aa8-32e5-baac-467b7262213c}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.WebApi\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Properties\\launchSettings.json",
+              "RelativeToolTip": "src\\TesteDotkon.WebApi\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-27T16:22:57.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WebSocketService.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.CrossCutting.WebSockets\\WebSocketService.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.CrossCutting.WebSockets\\WebSocketService.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.CrossCutting.WebSockets\\WebSocketService.cs",
+              "RelativeToolTip": "src\\TesteDotkon.CrossCutting.WebSockets\\WebSocketService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAzwAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T14:24:40.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.WebApi\\Program.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Program.cs",
+              "RelativeToolTip": "src\\TesteDotkon.WebApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T14:22:46.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostagemListarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarHandler.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarHandler.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarHandler.cs",
+              "RelativeToolTip": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarHandler.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T14:00:22.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PostagemDto.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\DTOs\\PostagemDto.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.Domain\\DTOs\\PostagemDto.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\DTOs\\PostagemDto.cs",
+              "RelativeToolTip": "src\\TesteDotkon.Domain\\DTOs\\PostagemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:59:58.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PostagemListarResponse.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarResponse.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarResponse.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarResponse.cs",
+              "RelativeToolTip": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Listar\\PostagemListarResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:59:54.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PostagemEditarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Editar\\PostagemEditarHandler.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Editar\\PostagemEditarHandler.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Editar\\PostagemEditarHandler.cs",
+              "RelativeToolTip": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Editar\\PostagemEditarHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:49:16.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PostagemController.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Controllers\\PostagemController.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.WebApi\\Controllers\\PostagemController.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.WebApi\\Controllers\\PostagemController.cs",
+              "RelativeToolTip": "src\\TesteDotkon.WebApi\\Controllers\\PostagemController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACkAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:40:45.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostagemAdicionarHandler.cs",
+              "DocumentMoniker": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Adicionar\\PostagemAdicionarHandler.cs",
+              "RelativeDocumentMoniker": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Adicionar\\PostagemAdicionarHandler.cs",
+              "ToolTip": "C:\\Users\\felip\\OneDrive\\\u00C1rea de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Domain\\Commands\\Postagem\\Adicionar\\PostagemAdicionarHandler.cs",
+              "RelativeToolTip": "src\\TesteDotkon.Domain\\Commands\\Postagem\\Adicionar\\PostagemAdicionarHandler.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwCkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-27T13:40:23.346Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

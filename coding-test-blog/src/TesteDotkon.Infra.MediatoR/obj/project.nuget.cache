@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "4RTD8+vfZXw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\felip\\OneDrive\\Área de Trabalho\\Teste Dotkon\\coding-test-blog\\src\\TesteDotkon.Infra.MediatoR\\TesteDotkon.Infra.MediatoR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\felip\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\felip\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
